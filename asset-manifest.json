@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Reto-Frontend-Developer/static/css/main.ce61d577.css",
+    "main.js": "/Reto-Frontend-Developer/static/js/main.a5a27718.js",
+    "static/js/488.9c92ff38.chunk.js": "/Reto-Frontend-Developer/static/js/488.9c92ff38.chunk.js",
+    "static/media/Inter-VariableFont_opsz,wght.ttf": "/Reto-Frontend-Developer/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
+    "index.html": "/Reto-Frontend-Developer/index.html",
+    "main.ce61d577.css.map": "/Reto-Frontend-Developer/static/css/main.ce61d577.css.map",
+    "main.a5a27718.js.map": "/Reto-Frontend-Developer/static/js/main.a5a27718.js.map",
+    "488.9c92ff38.chunk.js.map": "/Reto-Frontend-Developer/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce61d577.css",
+    "static/js/main.a5a27718.js"
+  ]
+}
