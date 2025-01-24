@@ -1,43 +1,48 @@
-.footer-container {
-    background-color: #1E1E1E; 
-    color: #ffffff; 
-    text-align: center;
-    padding: 20px;
-    width: 100%; 
-    font-size: 14px; 
-   
-}
-
-.footer-container p {
-    margin: 0; 
-}
 /* Estilos generales del footer */
 .footer-container {
-    background-color: #1E1E1E; 
-    color: #ffffff; 
-    text-align: center;
-    padding: 20px;
-    width: 100%; 
-    font-size: 14px; 
+  background-color: #1E1E1E; 
+  color: #ffffff; 
+  text-align: center;
+  padding: 20px;
+  width: 100%; 
+  font-size: 14px; 
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column; 
+  height: 100%; 
+}
+
+/* Párrafos dentro del footer */
+.footer-container p {
+  margin: 0; 
+  line-height: 1.5;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  word-break: break-word; 
+}
+
+/* Media Query para pantallas pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 10px; 
+    font-size: 16px; 
+    height: auto; 
   }
-  
-  /* Estilo del texto dentro del footer */
+
   .footer-container p {
-    margin: 0; 
+    line-height: 1.4; 
   }
-  
-  /* Media Query para pantallas pequeñas */
-  @media (max-width: 768px) {
-    .footer-container {
-      padding: 25px; 
-      font-size: 22px; 
-    }
+}
+
+/* Media Query para pantallas muy pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 10px; 
+    font-size: 12px; 
+    height: auto; 
   }
-  
-  @media (max-width: 480px) {
-    .footer-container {
-      padding: 5px; 
-      font-size: 10px; 
-    }
+
+  .footer-container p {
+    line-height: 1.4; 
   }
-  
+}
