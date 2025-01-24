@@ -1,0 +1,109 @@
+/* Estilos generales */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; 
+  padding: 5px; 
+  width: 100%; 
+  max-width: 700px;
+  border-radius: 50px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  margin: 50px auto; 
+}
+
+.icono {
+  padding: 15px;
+  width: 60px;
+  height: auto;
+  margin-bottom: 15px;
+  text-align: center;
+ margin: 5px;
+}
+
+.subscribite-text {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #1E1E1E;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Inter'; 
+  src: url('./fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 15px; 
+    margin: 80px auto; 
+    width: 90%; 
+    max-width: 600px; 
+    bottom: 100%;
+   
+    
+  }
+
+  .icono {
+    width: 45px;
+  }
+
+  .subscribite-text {
+    margin-bottom: 10px; 
+  }
+
+  h1 {
+    font-size: 20px; 
+  }
+}
+
+/* Media Query para pantallas más grandes pero aún pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 15px; 
+    margin: 80px auto; 
+    width: 90%; 
+    max-width: 600px; 
+  }
+
+  .icono {
+    width: 45px; 
+  }
+
+  .subscribite-text {
+    margin-bottom: 10px; 
+  }
+
+  h1 {
+    font-size: 20px; 
+  }
+}
+
+/* Media Query para pantallas muy pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+  .home-container {
+    margin: 90px auto; 
+    padding: 10px; 
+    width: 90%; 
+    max-width: 400px; 
+  }
+
+  h1 {
+    font-size: 18px; 
+  }
+}

@@ -1,0 +1,43 @@
+.footer-container {
+    background-color: #1E1E1E; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+    width: 100%; 
+    font-size: 14px; 
+   
+}
+
+.footer-container p {
+    margin: 0; 
+}
+/* Estilos generales del footer */
+.footer-container {
+    background-color: #1E1E1E; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+    width: 100%; 
+    font-size: 14px; 
+  }
+  
+  /* Estilo del texto dentro del footer */
+  .footer-container p {
+    margin: 0; 
+  }
+  
+  /* Media Query para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .footer-container {
+      padding: 25px; 
+      font-size: 22px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 5px; 
+      font-size: 10px; 
+    }
+  }
+  

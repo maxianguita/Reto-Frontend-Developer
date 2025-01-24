@@ -1,0 +1,128 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 45vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: block;
+    border: none;
+}
+
+input[type="email"] {
+    width: 170%; 
+    margin-left: -35%; 
+    padding: 10px 0;
+    margin-bottom: 30px; 
+    border: none;
+    border-bottom: 2px solid #ccc; 
+    font-size: 14px;
+    background-color: transparent; 
+    outline: none; 
+}
+
+
+input[type="email"]:focus {
+    border-color: #FFFFFF; 
+    outline: none;
+}
+
+.error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: #E6FC15;
+    color:#1E1E1E;
+    border: none;
+    padding: 12px 5px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 200px; 
+    display: block; 
+    margin: 0 auto; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease; ;
+}
+
+button:hover {
+    transform: scale(1.08);
+    
+} 
+
+.line-decorator {
+    border: 0;
+    border-top: 2px solid #FFFFFF;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.Toastify__close-button {
+    position: absolute; 
+    right: 10px;
+    left: 200px; 
+    top: 5px;
+    color: #fff; 
+    font-size: 5px; 
+    opacity: 5; 
+}
+
+
+.Toastify__close-button:hover {
+    color: #ff0000; 
+}
+button:disabled {
+    background-color: #E3F08E; 
+    cursor: not-allowed;
+}
+
+button {
+    background-color: #E3F08E; 
+    cursor: pointer;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    input {
+
+      margin: 0 auto; 
+    }
+  
+    button {
+      width: 80%; 
+      margin: 10px auto; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    input {
+      width: 100%; 
+    }
+  
+    button {
+      width: 90%; 
+    }
+  }
+  
